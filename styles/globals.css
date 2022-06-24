@@ -1,0 +1,209 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main-container span {
+  width: 100% !important;
+  height: 600px !important;
+}
+.navbar {
+  background-color: #000000;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar a {
+  padding: 15px;
+}
+.contact-container .nextui-c-eFfoBo {
+  background-color: #5a2c60;
+}
+.about-page {
+  text-align: center;
+  color: #6b6b62;
+  margin-top: 20px;
+}
+hr {
+  margin-bottom: 30px;
+}
+.about-image {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+}
+.about-text h6 {
+  text-align: start;
+  width: 900px;
+}
+.data-main-class .nextui-c-kRHeuF-ibhkOxP-css {
+  justify-content: center;
+}
+.nextui-c-PJLV-ijXuRFq-css {
+  padding: 10px;
+}
+.nextui-c-PJLV-iblwEex-css {
+  padding: 10px;
+}
+.nextui-c-gUrcXm {
+  display: flex;
+}
+.nextui-c-iWjDFM-cwXrJp-borderWeight-normal {
+  padding: 20px;
+  margin-top: 5px;
+}
+.myblog_data {
+  display: grid;
+  grid-template-columns: 700px auto;
+  justify-content: center;
+  margin-top: 10px;
+}
+.myblog_data .nextui-c-kRHeuF-ienfGvA-css {
+  width: 100%;
+}
+@media (min-width: 960px) {
+  .nextui-c-kRHeuF-ifdaEcH-css.sm,
+  .item-details {
+    flex-grow: 0;
+    display: inherit;
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+}
+.product-details {
+  max-width: 500px;
+}
+.rating-text {
+  margin: 20px !important;
+}
+.rating-text .nextui-c-PJLV-ikDPRVI-css {
+  margin: 0;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #388e3c;
+  color: #ffffff;
+}
+.card-button {
+  display: flex;
+  margin: 40px 20px 0;
+}
+.addtocard-class {
+  margin-right: 30px;
+}
+.home-header-text {
+  position: absolute;
+  color: #fff;
+  top: 245px;
+  letter-spacing: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.home-header-sub-text {
+  position: absolute;
+  color: #fff;
+  top: 345px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.home-header-button {
+  position: absolute;
+  top: 450px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.blog_card_class {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px;
+}
+.blog_card_class .nextui-c-kRHeuF {
+  max-width: calc(33.33% - 120px) !important;
+  flex-basis: calc(33.33% - 120px) !important;
+  margin: 60px;
+}
+.contact-us-page {
+  padding: 100px;
+}
+.contact-us-page h4 {
+  padding: 40px;
+}
+.nextui-c-iwmZdB-iiIdOsz-css {
+  width: 100%;
+  margin: 20px;
+}
+.contact-submit-button {
+  margin: auto;
+}
+.nextui-c-kbhVdb-ieCSSFU-css {
+  object-fit: contain;
+  background-color: #ffffff;
+}
+.back-button {
+  margin-top: 50px;
+}
+.staff-page-class .nextui-c-kRHeuF-ifdaEcH-css.sm {
+  max-width: 25% !important;
+  flex-basis: 25% !important;
+}
+.item-details-image img {
+  object-fit: contain;
+}
+.staff-page-card-image img {
+  object-fit: contain;
+}
+.button-group-class button {
+  margin-top: 0;
+}
+.product-button-group {
+  justify-content: space-between;
+}
+.product-main-container {
+  margin: 0 80px;
+}
+.product-image-class img {
+  object-fit: contain;
+}
+.more-product-classname {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 54px;
+}
+.more-product-classname .nextui-c-kRHeuF-ihLgHeV-css {
+  width: unset;
+}
+.more-product-classname
+  .nextui-c-kRHeuF-ihLgHeV-css
+  .nextui-c-kRHeuF-ibTHXhT-css.xs {
+  max-width: 100%;
+  flex-basis: 100%;
+}
+.myproduct-data-class img {
+  object-fit: contain;
+}
+.error-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
