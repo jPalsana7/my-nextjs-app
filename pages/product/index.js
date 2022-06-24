@@ -16,6 +16,9 @@ const Index = ({ data }) => {
   const route = useRouter();
   return (
     <>
+      <Head>
+        <title>Product</title>
+      </Head>
       <Navbar />
       <Text h1 css={{ m: 20, textAlign: "center" }}>
         Product Details

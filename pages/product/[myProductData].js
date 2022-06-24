@@ -31,6 +31,9 @@ const MyBlogData = ({ data }) => {
   const route = useRouter();
   return (
     <>
+      <Head>
+        <title>Product Details</title>
+      </Head>
       <Navbar />
       <div className="back-button">
         <Button

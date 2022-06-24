@@ -1,6 +1,7 @@
 import { Card, Grid, Text, Button, Row, Link } from "@nextui-org/react";
 import Navbar from "../../../../components/Navbar";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 // This function gets called at build time
 export async function getStaticPaths() {
@@ -31,6 +32,9 @@ export async function getStaticProps(context) {
 const SlugId = ({ data }) => {
   return (
     <>
+      <Head>
+        <title>Posts</title>
+      </Head>
       <Navbar />
       <Text h1 css={{ textAlign: "center", mt: 30 }}>
         User Posts

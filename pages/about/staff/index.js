@@ -26,6 +26,9 @@ const Index = ({ data }) => {
   console.log("======user", data);
   return (
     <>
+      <Head>
+        <title>staff</title>
+      </Head>
       <Navbar />
       <Text h1 css={{ textAlign: "center", mt: 25 }}>
         OUR STAFF

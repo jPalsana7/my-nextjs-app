@@ -8,6 +8,9 @@ const Index = () => {
   const route = useRouter();
   return (
     <>
+      <Head>
+        <title>About</title>
+      </Head>
       <Navbar />
       <h2 className="about-page"> ABOUT US</h2>
       <hr />

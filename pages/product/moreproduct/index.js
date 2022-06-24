@@ -25,6 +25,9 @@ const Index = ({ data }) => {
   const route = useRouter();
   return (
     <>
+      <Head>
+        <title>Products</title>
+      </Head>
       <Navbar />
       <div className="more-product-classname">
         {data.products?.map((data) => {

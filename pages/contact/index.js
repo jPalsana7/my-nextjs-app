@@ -5,6 +5,9 @@ import Head from "next/head";
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>Contact</title>
+      </Head>
       <Navbar />
       <Container css={{ mw: 1024 }} className="contact-container">
         <Card css={{ $$cardColor: "$colors$primary", mt: 20 }}>

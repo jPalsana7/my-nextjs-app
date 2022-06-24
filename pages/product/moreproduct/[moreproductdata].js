@@ -31,6 +31,9 @@ const Moreproductdata = ({ data }) => {
   const route = useRouter();
   return (
     <>
+      <Head>
+        <title>More Product</title>
+      </Head>
       <Navbar />
       <div className="back-button">
         <Button

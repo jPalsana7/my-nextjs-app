@@ -1,6 +1,7 @@
 import { Card, Grid, Text, Button, Row, Link } from "@nextui-org/react";
 import Navbar from "../../../components/Navbar";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 // This function gets called at build time
 export async function getStaticPaths() {
@@ -29,6 +30,9 @@ const StaffDetails = ({ data }) => {
   const route = useRouter();
   return (
     <>
+      <Head>
+        <title>Staff Details</title>
+      </Head>
       <Navbar />
       <div className="back-button">
         <Button

@@ -7,6 +7,9 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <div className="main-container">
+      <Head>
+        <title>Home</title>
+      </Head>
       <Navbar />
       <Image
         src="/map.png"
