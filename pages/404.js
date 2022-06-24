@@ -8,7 +8,7 @@ export default function Custom404() {
       <Text h1 size={100}>
         404
       </Text>
-      <Text h2>This is not the page you're looking for. </Text>
+      <Text h2>This is not the Page You're Looking For. </Text>
       <Button
         shadow
         bordered
